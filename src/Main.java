@@ -3,6 +3,8 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("Será iniciado as transações nessa conta bancária");
+
         // 1️⃣ Criar a lista de contas (polimorfismo: tipo genérico ContaBancaria)
         ArrayList<ContaBancaria> contas = new ArrayList<>();
 
